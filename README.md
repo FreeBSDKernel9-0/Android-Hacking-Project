@@ -1,3 +1,6 @@
+This'll be useful for auditing code, tinkering, and writing scripts:
+https://learnxinyminutes.com/c/
+
 Hey, guys.
 I'm back, with a new tinkering device! 
 (Samsung Galaxy A2 Core, Dark Grey, 8GB storage, expandable by SD card,
@@ -27,3 +30,13 @@ Sorry I haven't updated this, lol. 'Member how I was talking about hacking a M8 
 So, gonna work with primarily older Android devices (Pie to KitKat), and see how that goes. Maybe work with Red Velvet Cake in the future, lol, when I get a Pixel XL (when I get a stable job and cash.)
 
 Bye for now, FreeBSDKernel9-0.
+
+Oh, hey. So, update, getting a Fire Stick remote tomorrow, so I don't have to buy one. But, anyway, I'm working on ideas, but I don't have any yet, since I don't 
+have file paths and shit, but when I get into the file paths, and other stuff, like API's (for custom pop-up's, notifications, yada, yada, yada), I will FINALLY
+start making scripts. Also, I said this in my old repo, but I need to add a thing. 
+
+I will have seperate folders, with guides for where to go and stuff, so that's cool. But yeah, folders, with my scripts.
+They will be MKSH, though (sorry, Linux bros!), because I only know Debian Bash, and plus, I primarily tinker with Android stuff, so yeah, cool.
+
+Anyway, see ya,
+FreeBSDKernel9-0.
