@@ -1,5 +1,4 @@
-This'll be useful for auditing code, tinkering, and writing scripts:
-https://learnxinyminutes.com/c/
+That wasn't that useful, just basic, and I don't have another thing.
 
 Hey, guys.
 I'm back, with a new tinkering device! 
@@ -39,4 +38,15 @@ I will have seperate folders, with guides for where to go and stuff, so that's c
 They will be MKSH, though (sorry, Linux bros!), because I only know Debian Bash, and plus, I primarily tinker with Android stuff, so yeah, cool.
 
 Anyway, see ya,
+FreeBSDKernel9-0.
+
+So that last C thing was too basic, so I'm not even gonna bother writing C. I'd rather read and explain C, like what Low Level does, since I can read most languages, including C, just not write them.
+But yeah, got a remote, which paired first try, but no WiFi on it (entirely my fault).
+
+But yeah, the person that gave me the remote said they'll give me a new Fire Stick if mine doesn't work, so my thing (I didn't announce the name previously) Operation: Dumb ADB Tomfoolery isn't dead. But anyway, lemme explain what happened: 
+
+I cracked the WiFi/Bluetooth chip (MediaTek 67739 BSN) when pulling the shield off without heat, in the top-left corner, so yeah, amazing.
+That's why the remote paired first try, but the WiFi kept dropping. So, that's fun, I guess.
+
+Anyway, I'm out,
 FreeBSDKernel9-0.
