@@ -26,7 +26,7 @@ Sorry I haven't updated this, lol. 'Member how I was talking about hacking a M8 
 
 (Kamikiri failed, fought with FireISO and installing Kamikiri for 2 and a half hours, it failed, lol.)
 
-So, gonna work with primarily older Android devices (Pie to KitKat), and see how that goes. Maybe work with Red Velvet Cake in the future, lol, when I get a Pixel XL (when I get a stable job and cash.)
+So, gonna work with primarily older Android devices (KitKat to Pie), and see how that goes. Maybe work with Red Velvet Cake in the future, lol, when I get a Pixel XL (when I get a stable job and cash.)
 
 Bye for now, FreeBSDKernel9-0.
 
