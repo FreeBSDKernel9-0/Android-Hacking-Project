@@ -50,3 +50,10 @@ That's why the remote paired first try, but the WiFi kept dropping. So, that's f
 
 Anyway, I'm out,
 FreeBSDKernel9-0.
+
+So yeah, update, that stick died. I was messing around and found a set of pins about a millimeter apart from the CPU (I've no clue, MediaTek ARM something something?) arranged in a colon pattern, and they were CLK and DAT. So I then found out by shorting DAT with the end of a paperclip, the whole stick reboots. Thought that was cool, and kept doing it, then realized I scraped the pin off the board, and when I tried to turn it on again, it wouldn't boot. 
+
+But yeah, cracked WiFi chip anyway, so it was a brick, anyway. That's kinda annoying, since it might've been hackable with Kamikiri, considering how long it wasn't updated for. Welp, never mind. Anyway, posted my first release, ro-debuggable.sh . And you'll see this repo get wayyy more releases than some of my others, since MKSH is a language I reliably know (still learnng, but it's pretty simple) so I don't need to wait for devs, I can just do it myself.
+
+Anyway, bye,
+FreeBSDKernel9-0.
