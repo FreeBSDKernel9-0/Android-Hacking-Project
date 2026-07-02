@@ -1,5 +1,3 @@
-#! /system/bin/mksh
-
 pm list packages
 
 VERSION=$(getprop ro.build.version.release)
