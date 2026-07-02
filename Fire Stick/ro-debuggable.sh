@@ -1,4 +1,4 @@
-#! /bin/mksh
+#! /system/bin/mksh
 
 pm list packages
 
