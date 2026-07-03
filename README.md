@@ -68,7 +68,20 @@ Made in: Luxembourg
 Assembled in: China
 Model No: LY73PR
 
-And spoilers, I already found a wide-open Privelege Leak.
+And spoilers, I already found a wide-open Privilege Leak.
 
 Later, 
+FreeBSDKernel9-0.
+
+Oh, hey. So, I'm back from doing a release real quick. So anyway, lemme explain this Privilege Leak I found.
+It's a classic Privilege Leak on the flag for core_dump_debug_enable (which was set to [n], before I exploited this Leak), that allows you to just... kinda enable that debug flag. When testing, I used it to get a bugreport.txt fle from when I crashed Amazon's custom boot init, neo-init.
+For context, before that flag was enabled, I couldn't get one, because the data/tombstones directory required (root) access, and trying to get a Bug Report 
+from the shell would just throw an error.
+
+Oh, also got Silk's version string: Chromium Blink 108.0.5359.220. This probably has some vulnerabilities, but:
+
+1) Not a web developer.
+2) I have literally zero experience in exploiting V8 CVE's, I'd shout out @nt-fargo for that, lol. (The 'CSSFontFace Use-After-Free in WebKit' guy.
+
+Anyway, later,
 FreeBSDKernel9-0.
