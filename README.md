@@ -89,7 +89,12 @@ FreeBSDKernel9-0.
 Holy mother of- Yo, it's literally been a few hours since I discovered the core_dump_debug_enable vulnerability, and I just got, like, WAAY more.
 
 Improper Access Control (CWE 284) In The SQLite3 Tables, Allowing For Full SQLite3 Read/Write Access
+
 Information Disclosure (CWE 200) And Incorrect Permission Assignment (CWE 276) Aiding In Gaining Full SQLite3 Read/Write Access
+
 Missing Authorization (CWE 862) And Improper Handling Of System Disruptions (CWE 755) Aiding To DoS The DREAMING_STATE Screensaver
 
 So, as you can tell, I've been pretty busy today, huh?
+
+Oh, hello again. Posted my core_dump_debug_enable Privilege Leak script, and just from that, I got a few extra:
+
