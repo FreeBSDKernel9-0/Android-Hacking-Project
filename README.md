@@ -62,6 +62,7 @@ So, hey guys. Got that Fire Stick.
 Here's the specs:
 Fire TV Stick 2nd Gen (internally code named 'tank')
 Firmare version: Fire OS 5.2.9.5
+Build ID: LVY48F
 What it's based on: Android Lollipop (5.1.1)
 Made in: Luxembourg
 Assembled in: China
