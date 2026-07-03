@@ -57,3 +57,17 @@ But yeah, cracked WiFi chip anyway, so it was a brick, anyway. That's kinda anno
 
 Anyway, bye,
 FreeBSDKernel9-0.
+
+So, hey guys. Got that Fire Stick.
+Here's the specs:
+Fire TV Stick 2nd Gen (internally code named 'tank')
+Firmare version: Fire OS 5.2.9.5
+What it's based on: Android Lollipop (5.1.1)
+Made in: Luxembourg
+Assembled in: China
+Model No: LY73PR
+
+And spoilers, I already found a wide-open Privelege Leak.
+
+Later, 
+FreeBSDKernel9-0.
