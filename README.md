@@ -96,5 +96,14 @@ Missing Authorization (CWE 862) And Improper Handling Of System Disruptions (CWE
 
 So, as you can tell, I've been pretty busy today, huh?
 
+
 Oh, hello again. Posted my core_dump_debug_enable Privilege Leak script, and just from that, I got a few extra:
 
+External Control Of System Configuration Setting (CWE 15) In The Property Flags, To Aid In A Privilege Leak Chain
+
+Improper Privilege Management (CWE 269) To Gain Unauthorized Access To (root) Property Flags
+
+Externally Controlled Reference To A Resource In Another Sphere (CWE 610) To Trigger A (root) Property Flag While In UID 2000 (shell).
+
+Bye for now, 
+FreeBSDKernel9-0.
