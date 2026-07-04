@@ -107,3 +107,11 @@ Externally Controlled Reference To A Resource In Another Sphere (CWE 610) To Tri
 
 Bye for now, 
 FreeBSDKernel9-0.
+
+Well, turns out DoS'ing the screensaver once worked, but it now doesn't, so here's two new apps (Netflix/YouTube) that use these same vulnerabilities to crash:
+
+Using CWE 755 (Improper Handling Of System Disruptions), and CWE 862 (Missing Authorization) to panick the Android System Server, and throw a NULL Focused App
+dump. (Updated BrokenAccessControlChain.sh to accomodate.)
+
+Anyway, bye,
+FreeBSDKernel9-0.
