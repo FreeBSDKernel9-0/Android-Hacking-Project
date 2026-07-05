@@ -115,3 +115,37 @@ dump. (Updated BrokenAccessControlChain.sh to accomodate.)
 
 Anyway, bye,
 FreeBSDKernel9-0.
+
+So, update, found yet another vulnerability. Jeez, it's been, like, 3 days! 
+Now, the script I released to trigger it is compltely broken, but it's just supposed to show how it works, anyway.
+
+Now, the vulnerability. It's a vulnerability in the 'WiFi Password' field in the Settings app, where, by inserting special characters after you've reached the
+character limit, you can cause an App Crash.
+
+At it's core, it's an Input Sanitization Flaw, Leading To a Buffer Overflow, and App Crash.
+
+What it leverages: 
+
+CWE 20 (Improper Input Validation)
+CWE 1284 (Improer Validation Of Specifed Quality In Input)
+CWE 120 (Buffer Copy Without Checking The Size Of Input)
+CWE 787 (Out Of Bounds Write)
+
+How to trigger it (manually): 
+
+Launch Settings (either with shell commands, or by just going to the Settings icon, and hitting Network)
+Go to a WiFi network that isn't connected (or just disconnect yours)
+Click it
+When it asks for a Password, type 'A' a bunch, until you can't type any more characters.
+Then immediately start spamming the $ sign (It's a special character, which triggers the Buffer Overflow)
+Instead of stripping them out lie a secure app, it will keep letting you type them
+When you feel like it, immediately start spamming the " symbol
+Same as earlier, but spam the & symbol
+Then spam more $ symbols (This triggers the crash)
+Hit 'Submit' like normal
+
+If lucky: It will freeze for a few seconds, then kick you to the Home Screen (or sometimes yank you back into your last app)
+If not: Instead of displaying 'Invalid Password', it will freeze, then show a message saying 'An unexpected error has occured.'
+
+Later,
+FreeBSDKernel9-0.
