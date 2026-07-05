@@ -141,14 +141,23 @@ CWE 787 (Out Of Bounds Write)
 How to trigger it (manually): 
 
 Launch Settings (either with shell commands, or by just going to the Settings icon, and hitting Network)
+
 Go to a WiFi network that isn't connected (or just disconnect yours)
+
 Click it
+
 When it asks for a Password, type 'A' a bunch, until you can't type any more characters.
+
 Then immediately start spamming the $ sign (It's a special character, which triggers the Buffer Overflow)
+
 Instead of stripping them out lie a secure app, it will keep letting you type them
+
 When you feel like it, immediately start spamming the " symbol
+
 Same as earlier, but spam the & symbol
+
 Then spam more $ symbols (This triggers the crash)
+
 Hit 'Submit' like normal
 
 If lucky: It will freeze for a few seconds, then kick you to the Home Screen (or sometimes yank you back into your last app)
