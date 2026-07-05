@@ -1,7 +1,7 @@
 # Start the Network settings (Amazon will re-route this to their Network tab, rather than Android's)
 am start -a android.settings.WIFI_SETTINGS
 
-# Unfocus the tab, and hit Select (Puts you to the top network, which doesn't matter for this bug)
+# Unfocus the tab, and hit Select (Puts you to the top network, which doesn't matter for this bug, unless your top network is connected already)
 input keyevent 61
 input keyevent 66
 
