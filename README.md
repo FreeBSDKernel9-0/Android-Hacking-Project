@@ -59,13 +59,21 @@ Anyway, bye,
 FreeBSDKernel9-0.
 
 So, hey guys. Got that Fire Stick.
+
 Here's the specs:
+
 Fire TV Stick 2nd Gen (internally code named 'tank')
+
 Firmare version: Fire OS 5.2.9.5
+
 Build ID: LVY48F
+
 What it's based on: Android Lollipop (5.1.1)
+
 Made in: Luxembourg
+
 Assembled in: China
+
 Model No: LY73PR
 
 And spoilers, I already found a wide-open Privilege Leak.
@@ -80,29 +88,28 @@ from the shell would just throw an error.
 
 Oh, also got Silk's version string: Chromium Blink 108.0.5359.220. This probably has some vulnerabilities, but:
 
-1) Not a web developer.
-2) I have literally zero experience in exploiting V8 CVE's, I'd shout out @nt-fargo for that, lol. (The 'CSSFontFace Use-After-Free in WebKit' guy.
+(1) Not a web developer.
+(2) I have literally zero experience in exploiting V8 CVE's, I'd shout out @nt-fargo for that, lol. (The 'CSSFontFace Use-After-Free in WebKit' guy.
 
 Anyway, later,
 FreeBSDKernel9-0.
 
 Holy mother of- Yo, it's literally been a few hours since I discovered the core_dump_debug_enable vulnerability, and I just got, like, WAAY more.
 
+
 Improper Access Control (CWE 284) In The SQLite3 Tables, Allowing For Full SQLite3 Read/Write Access
-
 Information Disclosure (CWE 200) And Incorrect Permission Assignment (CWE 276) Aiding In Gaining Full SQLite3 Read/Write Access
-
 Missing Authorization (CWE 862) And Improper Handling Of System Disruptions (CWE 755) Aiding To DoS The DREAMING_STATE Screensaver
 
+
 So, as you can tell, I've been pretty busy today, huh?
+
 
 
 Oh, hello again. Posted my core_dump_debug_enable Privilege Leak script, and just from that, I got a few extra:
 
 External Control Of System Configuration Setting (CWE 15) In The Property Flags, To Aid In A Privilege Leak Chain
-
 Improper Privilege Management (CWE 269) To Gain Unauthorized Access To (root) Property Flags
-
 Externally Controlled Reference To A Resource In Another Sphere (CWE 610) To Trigger A (root) Property Flag While In UID 2000 (shell).
 
 Bye for now, 
