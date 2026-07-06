@@ -161,7 +161,7 @@ Then spam more $ symbols (This triggers the crash)
 Hit 'Submit' like normal
 
 If lucky: It will freeze for a few seconds, then kick you to the Home Screen (or sometimes yank you back into your last app)
-If not: Instead of displaying 'Invalid Password', it will freeze, then show a message saying 'An unexpected error has occured.'
+If not: Instead of displaying 'Invalid Password', it will freeze, then show a message saying 'An unexpected error has occurred.'
 
 Later,
 FreeBSDKernel9-0.
