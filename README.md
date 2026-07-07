@@ -89,7 +89,7 @@ from the shell would just throw an error.
 Oh, also got Silk's version string: Chromium Blink 108.0.5359.220. This probably has some vulnerabilities, but:
 
 (1) Not a web developer.
-(2) I have literally zero experience in exploiting V8 CVE's, I'd shout out @nt-fargo for that, lol. (The 'CSSFontFace Use-After-Free in WebKit' guy.
+(2) I have literally zero experience in exploiting V8 CVE's, I'd shout out @nt-fargo for that, lol. (The 'CSSFontFace Use-After-Free in WebKit' guy.)
 
 Anyway, later,
 FreeBSDKernel9-0.
