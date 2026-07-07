@@ -165,3 +165,19 @@ If not: Instead of displaying 'Invalid Password', it will freeze, then show a me
 
 Later,
 FreeBSDKernel9-0.
+
+Cool, cool, cool. Found a permanent bypass for the BIND_DREAMING_STATE signature on the screensaver, using the exact same vulnerabilities as before, but this time, it's not a fluke, I tested many times. So, anyway, using the same vulnerabiliies as last time I tried to call, and then subsequently DoS, the screensaver, I have now found a permant bypass for the BIND_DREAMING_STATE signature, using a basic AOSP flag, all because Amazon forgot to check if the caller of a system signed app, mind you, is signed by [system].
+
+So obviously, the vulnerability stems from more than one CWE, like last time. 
+
+CWE 862: Missing Authorization To Call An App Signed By [system]
+CWE 755: Improper Handling Of System Disruptions Leading To App/Service Crash (DoS)
+CWE 926: Improper Export Of Android Component, Leading To Restriction Bypass
+
+Anyway, the 'basic AOSP flag' I was talking about. It's literally am start -p. When using -p, there is no check in place to make sure you are [system] or (root) before the command executes, like -n, -a, etc, meaning you can literally just run this, and it will happily let you launch a system signed app, and, in my case, DoS it. So that means, if someone found an RCE bug that allowed access to a 'tank', they could run this on any system signed app, which led me to the next piece I found. Using CWE 862, you can also list/launch apps in the /system/priv-app folder, that you're literally not supposed to get access to, without being [system] or (root). That's the whole point of LPE's, to do dumb shit you're not usually allowed to do.
+
+Anyway, my goal here was to get an RCE, still haven't found one, but I'm sure I will.
+
+Later,
+FreeBSDKernel9-0.
+
