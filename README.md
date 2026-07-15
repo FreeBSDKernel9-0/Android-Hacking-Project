@@ -183,9 +183,34 @@ FreeBSDKernel9-0.
 
 So, been messing around over a few days, and found a case of CWE 755 (Improper Handling Of System Disruptions), and a new one: CWE 400 (Uncontrolled Resource Consumption), which, of course, I weaponized. 
 
-Basically, I found 4 ways to crash the Kernel (Kernel Panic, Leading To A System-Wide LDoS), using dd commands to flood the eMMC.
+Basically, I found 3 ways to crash the Kernel (Kernel Panic, Leading To A System-Wide LDoS), using dd commands to flood the eMMC.
 
 1) Spawning a ton of Internal Jobs and PID's, until the system can't keep up, and KP's, crashing your shell,
 so you can't even $(reboot) your way out, and have to unplug it for a solid minute.
 
-2) 
+2) Nuking the LMK, using dd, which did cause a crash leading to a reboot, but not always.
+
+3) Overwhelming the LMK, using dd, which triggers the watchdog to reset, and the system to crash (this will sometimes freeze your terminal, LOL.)
+
+Also, I found a way to get temp [system] privileges, too.
+
+Anyway, bye for now,
+FreeBSDKernel9-0.
+
+(LMAO, Dumb Ways To Die just started playing.)
+Anyway, temp [system] privileges. Using CWE 78 (OS Command Injection), CWE 610 (Externally Controlled Reference To A Resource In Another Sphere), and CWE 755
+(Improper Handling Of System Disruptions), and CWE 862 (Missing Authorization), you can gain access to a 'core' subpackage behind the Settings app (that you're normally not even supposed to see, hence CWE 862) and execute commands, to gain temp [system] privileges.
+
+The package is: com.amazon.settings.core, and nomally, you're not even supposed to see this, but this is the same software version that Amazon left development
+gear in (Devo), but I wasn't able to get access.
+
+Anyway, on track. You *can* gain [system] privileges, but since you're in an app, controlling from a shell, you have both Java App Sandboxing and SELinux
+breathing down your neck, meaning, it really is temporary. So temporary, that SELinux sees you're in shell immediately when you execute a thing, and lowers 
+your privileges back down, exactly like how FreeRTOS' xPortRaisePrivilege() function is supposed to work, except this isn't FreeRTOS, it's just SELinux set to Enforcing.
+
+(LMAO, FreeRTOS' xPortRaisePrivilege() was exploited, in CVE-2021-43997.)
+
+So unless I find a way to hold privileges, this exploit won't be that useful.
+
+Anyway, bye,
+FreeBSDKernel9-0.
