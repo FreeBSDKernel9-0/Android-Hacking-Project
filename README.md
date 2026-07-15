@@ -181,3 +181,11 @@ Anyway, my goal here was to get an RCE, still haven't found one, but I'm sure I 
 Later,
 FreeBSDKernel9-0.
 
+So, been messing around over a few days, and found a case of CWE 755 (Improper Handling Of System Disruptions), and a new one: CWE 400 (Uncontrolled Resource Consumption), which, of course, I weaponized. 
+
+Basically, I found 4 ways to crash the Kernel (Kernel Panic, Leading To A System-Wide LDoS), using dd commands to flood the eMMC.
+
+1) Spawning a ton of Internal Jobs and PID's, until the system can't keep up, and KP's, crashing your shell,
+so you can't even $(reboot) your way out, and have to unplug it for a solid minute.
+
+2) 
