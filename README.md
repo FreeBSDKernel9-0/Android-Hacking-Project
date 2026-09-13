@@ -297,3 +297,14 @@ Also, getting an RCE exploit on Cloud and getting (root) on this server would im
 
 Bad idea,
 FreeBSDKernel9-0.
+
+Just dropped three new bugs. It was gonna be four, but, like, the bug broke (Army Cat), so I never uploaded it.
+
+CatCall: Local privilege escalation vulnerability abusing an attacker made (owned??? I dunno how to phrase that) directory, with CMi, coming from this line, which I edited to add ouble quotes: awk '{print $1}'. I added a $TARGET variable, and double quotes.
+
+InitPaws: Local privilege escalation vulnerability utilizing a dumb ${init_script} variable, which had a call to sudo /bin/bash -c, so I hacked it. Dumb, but 'kay.
+
+Soup Paws: Local Privilege Escalation via adding a user (arbitrarily) to /etc/sudoers, to then run a hack via sudo.
+
+Anyway, dumb,
+FreeBSDKernel9-0.
