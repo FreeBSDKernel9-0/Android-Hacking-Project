@@ -308,3 +308,34 @@ Soup Paws: Local Privilege Escalation via adding a user (arbitrarily) to /etc/su
 
 Anyway, dumb,
 FreeBSDKernel9-0.
+
+Hey. Sorry I haven't updated in a bit, I was grounded, busy, and fighting a dumb rule.
+
+Few more misc. LPE's in Coda/Cloud (PortPaws and LionePaws), LionePaws was a Blind Sourcing flaw in li0n.sh in Ubuntu on Coda, and PortPaws was a CMi in CLIENT_PORT (The LPE is a known shell escape, and was just a gag), and once again, even without using the 'gag LPE' in my PortPaws report to Google VRP, I still got 'Intended Behaviour', even with a valid CMi.
+
+But apart from that, I found a zero day. (You can read the code at /tree/main/Sky ER115/MikuLeak.sh), and it's a chain of ridiculous bugs, on a real home router, rather than some dumb cloud Linux box.
+
+MikuLeak (I called it that because of the 'she lives in your WiFi' reference from the song Miku by Anamanaguchi) is a combination of a few BAD bugs. Like, really bad. We're talking bad auth, a persistent malicious access primitive, and a full leak of the network map (a bunch of stuff, SSID/Password, MAC addresses of devices on your network, firmware version, router serial number and MAC address, to name a few)
+
+(I reported it to VulnCheck already, haven't received anything back, so the floodgates are open)
+
+CWE 200 (Exposure Of Sensitive Information To An Unauthorized Actor)
+CWE 288 (Authentication Bypass Via Alternate Channel)
+CWE 798 (Use Of Default/Hardcoded Credentials) - we knew this already, as I documented it in my last entry
+CWE 290 (Authentication Bypass Via Spoofing)
+
+Just to name a few, anyway.
+
+CWE 200 originates from, get this, your whole network map (including other shit I didn't list above) being listed in PLAINTEXT JavaScript soure, that you can pull via cURL, thanks to the auth bypass bugs.
+
+CWE 288 is the fact of, you don't even need the creds on the back of the router, just use admin:sky, LOL.
+
+CWE 798 is, well, admin:sky, obvs.
+
+CWE 290 is the fact of, the auth is pretty flawed, allowing (even if adminLoggedIp is an empty string), for you to just pull files anyway.
+
+
+Dumbest bug ever, LOLFAO. Like, I can't even...
+Currently trying to get RCE (Miku2Shell), and I'll report back, since the entire reason I found MikuLeak in the first place, was me poking around, and trying to pop a shell on the router.
+
+Later, FreeBSDKernel9-0.
