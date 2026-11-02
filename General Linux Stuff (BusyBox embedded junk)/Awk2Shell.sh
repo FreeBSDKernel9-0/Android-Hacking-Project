@@ -1,4 +1,5 @@
-# Setup steps for Awk2Shell - not really a bug, more a dumb software issue, or a case of 'security by obscurity. 
+# Setup steps for Awk2Shell - not really a bug, more a dumb software issue, or a case of 'security by obscurity.'
+
 docker run -d --name local_target php:8.2-apache
 docker exec -u root local_target sh -c 'apt-get update && apt-get install -y sudo && echo "www-data ALL=(ALL) NOPASSWD: /usr/bin/awk" >> /etc/sudoers'
 docker exec -it -u www-data local_target bash # Get uid=33 (www-data) with Docker, then get (root) in the next steps.
