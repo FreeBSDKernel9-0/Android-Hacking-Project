@@ -35,7 +35,7 @@ rm bash.c
 sudo chown root:root LibrariesAreWeird
 sudo chmod u+s LibrariesAreWeird
 
-# Check again - you should see an in there (SetUID)
+# Check again - you should see an s in there (SetUID)
 ls -l LibrariesAreWeird
 
 # Run the binary, you should get a (root) shell
