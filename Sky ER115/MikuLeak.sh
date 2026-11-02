@@ -1,5 +1,9 @@
-# MikuLeak - CWE 798 (Use Of Default/Hardcoded Credentials), CWE 306/287 (Missing Authentication for Critical Function / Improper Authentication)
-# CWE 290/863 (Authentication Bypass by Spoofing / Incorrect Authorization),
+# MikuLeak - CWE 798 (Use Of Default/Hardcoded Credentials)
+
+# CWE 306 (Missing Authentication for Critical Function) 
+# CWE 287 (Improper Authentication)
+# CWE 290 (Authentication Bypass Via Spoofing)
+# CWE 863 (Incorrect Authorization),
 # CWE 200 (Exposure Of Sensitive Information To An Unauthorized Actor)
 
 # I've been holding this bug back for 2 months, time constraints/wanting to find an interesting bug to chain with this before release
