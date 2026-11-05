@@ -26,7 +26,7 @@ Bye for now, FreeBSDKernel9-0.
 
 Oh, hey. So, update, getting a Fire Stick remote tomorrow, so I don't have to buy one. But, anyway, I'm working on ideas, but I don't have any yet, since I don't have file paths and shit, but when I get into the file paths, and other stuff, like API's (for custom pop-up's, notifications, yada, yada, yada), I will FINALLY start making scripts. Also, I said this in my old repo, but I need to add a thing.
 
-I will have seperate folders, with guides for where to go and stuff, so that's cool. But yeah, folders, with my scripts. They will be MKSH, though (sorry, Linux bros!), because I only know Debian Bash, and plus, I primarily tinker with Android stuff, so yeah, cool.
+I will have seperate folders, with guides for where to go and stuff, so that's cool. But yeah, folders, with my scripts. They will be MKSH, though (sorry, Linux glbros!), because I only know Debian Bash, and plus, I primarily tinker with Android stuff, so yeah, cool.
 
 Anyway, see ya, FreeBSDKernel9-0.
 
@@ -535,6 +535,8 @@ Cherie 23 - VOYCD
 i like ur shoes - Nafeesisboujee
 
 the prom - glaive 
+
+The Loneliest Girl In The World - Noah Floersch
 
 
 **My favourite Bash string**
