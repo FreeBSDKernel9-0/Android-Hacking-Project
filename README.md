@@ -510,6 +510,8 @@ Garbage Time (I like cars, and like watching them screw around)
 
 Anything bodycam related (I like true crime, okay?)
 
+Low Level (obviously, referenced him a ton)
+
 Some of my favourite songs:
 
 Zodiac Killer - Khali?
@@ -542,3 +544,16 @@ CVE-2025-32463, which I call "chwoot woot!", because it's alias is chwoot, and i
 
 "chwoot woot!",
 FreeBSDKernel9-0.
+
+One last thing for today, I promise.
+
+**The legal name I want whenI turn 16, and why**
+
+Zoey 'May' Franklin (my real name is trash, and finally, after, like, a few weeks/nearly a month of waiting, I am now known as Zoey in school)
+
+Also, I like putting 'May' in quotes (it could also be a nickname as well as a middle name, and I put nicknames in quotes)
+
+So yeah, 16, immmediately getting that, LOL.
+
+See ya,
+Zoey 'May' Franklin
