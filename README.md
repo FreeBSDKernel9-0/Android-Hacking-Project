@@ -497,3 +497,48 @@ Mizuki Akitomo + Kasane Teto + Mizuki's work nickname (Miki) = TetoMiki - 'ki' =
 
 Later,
 FreeBSDKernel9-0.
+
+**Favourite YouTubers/songs/Bash string, and why**
+
+YouTubers:
+
+Dankpods (the music guy, his content/opinions are good, and I often get most of his opinions, and see why he said them, and a lot of the time, agree, because he's not lying)
+
+James Channel (his mate, I like games, and like learning random useless shit about tech)
+
+Garbage Time (I like cars, and like watching them screw around)
+
+Anything bodycam related (I like true crime, okay?)
+
+Some of my favourite songs:
+
+Zodiac Killer - Khali?
+
+Bella - Nafeesisboujee
+
+school crush - Nafeesisboujee (crush on you wasn't that good, just a less cool reskin of school crush)
+
+Chasing Down Sadness/Free Skating, and my all time favourite from Inside Out: First Day Of School
+
+Clover/Butcher Vanity/weathergirl/Static/Human/Spoken For - FLAVOR FOLEY
+
+NEWLY HUMAN FEELING/Love Taste/ROT FOR CLOUT/Machine Love/It's 2013 Again/and more - Jamie Paige
+
+lose her - s0rrow 
+
+Strawberry - TIKO
+
+Cherie 23 - VOYCD
+
+i like ur shoes - Nafeesisboujee
+
+**My favourite Bash string**
+
+-f root, which is why I keep referencing it - it's cool, an easy exploit, and the first big bug I've seen in /usr/sbin/telnetd since the big Sun Solaris (similar bug), and talkd/talktalk CWE 121 bugs. Also, it sounds really close to Froot Loops, which I've never ate, ever (aren't they American?), but it's ridiculously funny that it sounds like it.
+
+**My favourite CVE in recent years, apart from CVE-2026-24061**
+
+CVE-2025-32463, which I call "chwoot woot!", because it's alias is chwoot, and it echoes "woot!" before giving you (root). So... "chwoot woot!", LOLFAO.
+
+"chwoot woot!",
+FreeBSDKernel9-0.
