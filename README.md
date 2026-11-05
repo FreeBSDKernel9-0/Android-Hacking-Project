@@ -339,3 +339,86 @@ Dumbest bug ever, LOLFAO. Like, I can't even...
 Currently trying to get RCE (Miku2Shell), and I'll report back, since the entire reason I found MikuLeak in the first place, was me poking around, and trying to pop a shell on the router.
 
 Later, FreeBSDKernel9-0.
+
+'Kay, so next day, and I lied. 'Member how I said "I'm not even gonna bother writing C"? Well, I lied (obvs, check tree/main/General Linux Stuff (Busybox embedded junk)/LibrariesAreWeird.sh, it's a C script. Turns out (even though I'm not that good... yet), I actually really like C.
+
+Junk thing is, we started learning Python in Computing class (personally, hate Python, people say it's better than C, and clown on C, when Python is literally built almost ENTIRELY in C. Sure, it's easier to pick up, but that makes it boring, honestly. Like, almost no hardware access - meaning no GPU for, y'know, like, making Pac Man or something, no proper way to distinguish libraries from code (Like, import os instead of #include <stdio.h>), and, unpopular opinion, the only good thing about Python is the shell, but it's convoluted, and weird to set up.) And my point is, even though I'm not good at C, I've read it, read up on it, and dabbled in it a bit (even before LibrariesAreWeird.sh, just not on GitHub), so because of that, I feel like I'll just end up mixing C and Python and break my scripts (like, where's #define and #include? Also, do you #define NAME and AGE in that type of project? Also, how do you get user_input? In C, it's env/getenv/setenv, which is cool, but where's that in Python?)
+
+Anyway, enough code smell. Time to talk about the 'dumb rule', and Miku2Shell.
+
+**Dumb Rule**
+
+(Yeah, I learned how to bolden text on GitHub, without hashtags)
+
+Basically, long story short:
+
+I have really bad insomnia, and don't sleep much, and will happily stay up, writing reports, code, rants, etc while running on straight fumes at 2AM. 
+
+So when I used my laptop, I would lose track of time, and either fall asleep with it on my lap, or fall asleep, and I wake up with it on my bedroom floor.
+
+So Mum set up a rule, where, I would get my laptop, and hand it back at 9PM. I hated this rule, because it left barely any time for projects and junk. But very quickly, I found what can only be described as a real life Time Of Check Time Of Use (yes, I know the full line) bug.
+Basically, Mum would give me the laptop, and she wouldn't come up to check, so I would just... keep it. And due to my weird 'early riser, even if I'm tired, I'll get all my energy back and stop being tired after, like, half an hour' nature, I would still fall asleep with it on my lap/wake up to it on the floor.
+
+So after many bypasses, Mum had enough, and came up with a new rule at a MAT/MAP (whatever the fuck they're called, I call them MAT's) meeting, where I would be in the kitchen to use my laptop. I also hated this rule, but to this day, I haven't found a full bypass. 
+
+**Reasons I hated it (might turn into a straight rant):**
+
+The chairs in the kitchen suck, and hurt my back.
+
+Mum always hangs in the kitchen fsr (she has a bedroom, btw), and even though she isn't looking over my shoulder, it feels like she is, and I feel like I can't do personal stuff (like troll bots, chat about my life to Google Search/Claude/etc, and chat to the Reddit group I hang in, r/PS4Mods, write songs, make my art with my tools)
+
+So, yeah, that sucks, and she still won't budge, so yeah, amazing work.
+
+**Miku2Shell**
+
+Yeah, it... flopped, kept getting "empty reply fro server (52)" in cmd.exe, and my firmware dump (all good security researchers have a firmware dump, right??) version didn't match my actual router's firmware version.
+
+I really want a shell, and I'll keep trying to look, but we'll see. So, call it stalled or work in progress.
+
+**The (partial) bypass for said 'dumb rule'**
+
+Y'know how I said those kitchen chairs really suck? So yeah, I decided tonight to sit on the stairs, and Mum doesn't really seem to mind, honestly. More comfortable than those chairs, LOLFAO. So that's that done, hopefully. 
+
+**My C stuff**
+
+So, gonna keep learning C (open source stuff, Stack Overflow (which, ironically, is the biggest bug class in C, and the birth of Rust), Google, the 'man' manual on Linux, and maybe RE'd stuff I find?), and see what shit I can make. God, learning Python in school, and C at home will suck...
+
+**My opinion on BSD based stuff/UNIX**
+
+Honestly, I kinda hate how similar Linux and BSD based stuff's file trees are. Like, you see files you know, yet, when you try fuck around on BSD based stuff/UNIX, you realize how different and complex they all are (at least for a shell guy, who evaluates an OS based on: ease, how good the shell is, and cool features, anyway), LOL.
+
+Also, funny thing is, MacOS' Kernel literally stands for 'X is Not UNIX', yet is legally (legally as in, in the UNIX manual thing) classed as UNIX. Weird thing, huh, XNU Kernel?
+
+And also, the other thing I kinda hate about BSD based stuff/UNIX is how complex and strange the code is, despite it being C. Like, I read though bits and pieces of FreeBSD, and it is the main thing that made me hate BSD based stuff/UNIX. The code is just so complex and straight weird. I kinda wanna read through the XNU Kernel's source, but it might suck, LOL. (Funny thing, this BSD section is basically me being grumpy, and my stepdad just called me 'grumpy and moody' - got made to sit back on the kitchen chairs again, and hurt myself on the metal things at the sides - ew.) 
+
+**My opinion on C++** 
+
+Honestly, another gripe section, so I'll keep it short. I honestly... hate it. It just doesn't really make sense, and why the hell is 'C with classes' a thing? You just added a C++ feature to C, and made C complex.
+
+Like, C++ is so convoluted and driven away from what C was, and I'll probably never learn it, LOLFAO.
+
+**My favourite (despite maybe controversial/unpopular)**
+
+system() - yes, I write C functions with their (), it looks cleaner - even though it's vulnerable.
+
+**Why?**
+
+Well, I'm a shell guy, what'cha want? Also, I dunno how to use the safe options properly.
+
+
+setenv()/getenv()/env()
+
+**Why?**
+
+Better for user_input, like I said earlier.
+
+
+printf()
+
+**Why?**
+
+Looks better than plain print() in Python.
+
+
+Anyway, see ya,
+FreeBSDKernel9-0.
