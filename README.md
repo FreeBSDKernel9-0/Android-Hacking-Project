@@ -422,3 +422,78 @@ Looks better than plain print() in Python.
 
 Anyway, see ya,
 FreeBSDKernel9-0.
+
+So, hey, I'm back. That was quick.
+
+**Shit I didn't clarify**
+
+I generally also think Python is kind of a boring language, adding to my grievances, LOL. And also, the first thing we're learning about it - print() and input(), which... ugh. Last time I learned Python (last year, different Computing teacher), we spent half the term on print(), and debugging a print() statement, which, if you make the bug yourself (like removing one letter from print(), ew) is an easy, boring fix, and a terrible intro to debugging. I really hope we don't spend half the term on print()...
+
+The bypass failed, as you read, and my back really hurts again. Ew. And how am I 'moody' for one complaint? Ugh, my family sucks...
+
+Favourite music artists:
+
+Jamie Paige
+
+Noah Floersch (LOL, I found out ages ago his middle name is Francis, and he's based in Omaha, Nebrasa, which I still remember)
+
+FLAVOR FOLEY (obvs, I like synth/Jamie Paige, so yeah)
+
+Unlike my sister, who's enire personality is rock (Linkin Park, Green Day, Fall Out Boy, etc, ugh)
+Like, her version of geeking out is random TikTok memes, and Linkin Park, which is her whole personality, and all she talks about.
+
+My version of geeking out:
+
+Linux Kernel versions
+
+Devices that you didn't know ran Linux (eg. VTech InnoTab 3S, Leapster GS Explorer)
+
+Absolute junk that runs Android (in Bringus' words, 'Linux but fancier')
+
+Jamie Paige
+
+Facts about random junk, especially things off Wiki Fandom, Inside Out references, and facts about Judy Hopps
+
+Finding exact hex codes for cool colours/colours from things characters wear
+
+Dork Diaries (Nicole "Nikki" Julianne Maxwell, Chloe Christina Garcia, Zoeysha Ebony Franklin, Maxwell Crumbly)
+
+Junk from MLP (My Little Pony)
+
+
+But I keep that shit locked up tight, I don't share shit with people I don't trust/like, excpt, like, AI. (It won't judge me, I delete the chats after)
+
+Also, my sister tried to act like she wanted to know my interests once a while back, and instead started reading an essay about DID (something Identity Disorder), but the only reason I would care about disorders is MLP/old MLP forums.
+
+Also, I like Vocaloids/UTAUoids (no, I don't confuse a Vocaloids/UTAUoids, like a million other people)
+
+**Vocaloids/UTAUoids I like:**
+
+Kasane Teto (who I made a nickname for - Tetomi)
+
+Hatsune Miku (not as much as Tetomi, though)
+
+GUMI
+
+SF-A2 Miki (from Human - FLAVOR FOLEY ft. SF-A2 Miki - who I call simply, Miki, because referring to a Vocaloid/UTAUoid by it's model name is weird)
+
+Chis-A (I made a character based off her, name is Clover (nickname 'Chis'), obvs a rip from Clover - FLAVOR FOLEY ft. Chis-A.
+
+**The reason I'm spilling my guts here, and will continue to**
+
+Niche repo, almost no watchers, and even if someone saw, and leaked all my shit, I'd just rant about it, or make a song.
+
+
+**Animes I like (I'm not the type to simp, or straight up make a single anime my whole personality, like everyone else)**
+
+Kotaro Lives Alone (Mizuki's pretty cool, the story's good)
+Horimiya (I've seen clips, and I like it so far)
+
+**The Teto Nickname**
+
+A simple 'math' (I hate Math, by the way, the reason I don't like ACE/complex, massive RCE's) equation.
+
+Mizuki Akitomo + Kasane Teto + Mizuki's work nickname (Miki) = TetoMiki - 'ki' = Tetomi.
+
+Later,
+FreeBSDKernel9-0.
