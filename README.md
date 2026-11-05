@@ -534,6 +534,9 @@ Cherie 23 - VOYCD
 
 i like ur shoes - Nafeesisboujee
 
+the prom - glaive 
+
+
 **My favourite Bash string**
 
 -f root, which is why I keep referencing it - it's cool, an easy exploit, and the first big bug I've seen in /usr/sbin/telnetd since the big Sun Solaris (similar bug), and talkd/talktalk CWE 121 bugs. Also, it sounds really close to Froot Loops, which I've never ate, ever (aren't they American?), but it's ridiculously funny that it sounds like it.
