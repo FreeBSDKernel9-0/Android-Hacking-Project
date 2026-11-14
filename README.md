@@ -26,7 +26,7 @@ Bye for now, FreeBSDKernel9-0.
 
 Oh, hey. So, update, getting a Fire Stick remote tomorrow, so I don't have to buy one. But, anyway, I'm working on ideas, but I don't have any yet, since I don't have file paths and shit, but when I get into the file paths, and other stuff, like API's (for custom pop-up's, notifications, yada, yada, yada), I will FINALLY start making scripts. Also, I said this in my old repo, but I need to add a thing.
 
-I will have seperate folders, with guides for where to go and stuff, so that's cool. But yeah, folders, with my scripts. They will be MKSH, though (sorry, Linux glbros!), because I only know Debian Bash, and plus, I primarily tinker with Android stuff, so yeah, cool.
+I will have separate folders, with guides for where to go and stuff, so that's cool. But yeah, folders, with my scripts. They will be MKSH, though (sorry, Linux bros!), because I only know Debian Bash, and plus, I primarily tinker with Android stuff, so yeah, cool.
 
 Anyway, see ya, FreeBSDKernel9-0.
 
@@ -40,7 +40,7 @@ Anyway, I'm out, FreeBSDKernel9-0.
 
 So yeah, update, that stick died. I was messing around and found a set of pins about a millimeter apart from the CPU (I've no clue, MediaTek ARM something something?) arranged in a colon pattern, and they were CLK and DAT. So I then found out by shorting DAT with the end of a paperclip, the whole stick reboots. Thought that was cool, and kept doing it, then realized I scraped the pin off the board, and when I tried to turn it on again, it wouldn't boot.
 
-But yeah, cracked WiFi chip anyway, so it was a brick, anyway. That's kinda annoying, since it might've been hackable with Kamikiri, considering how long it wasn't updated for. Welp, never mind. Anyway, posted my first release, ro-debuggable.sh . And you'll see this repo get wayyy more releases than some of my others, since MKSH is a language I reliably know (still learnng, but it's pretty simple) so I don't need to wait for devs, I can just do it myself.
+But yeah, cracked WiFi chip anyway, so it was a brick, anyway. That's kinda annoying, since it might've been hackable with Kamikiri, considering how long it wasn't updated for. Welp, never mind. Anyway, posted my first release, ro-debuggable.sh . And you'll see this repo get wayyy more releases than some of my others, since MKSH is a language I reliably know (still learning, but it's pretty simple) so I don't need to wait for devs, I can just do it myself.
 
 Anyway, bye, FreeBSDKernel9-0.
 
@@ -50,7 +50,7 @@ Here's the specs:
 
 Fire TV Stick 2nd Gen (internally code named 'tank')
 
-Firmare version: Fire OS 5.2.9.5
+Firmware version: Fire OS 5.2.9.5
 
 Build ID: LVY48F
 
@@ -66,7 +66,7 @@ And spoilers, I already found a wide-open Privilege Leak.
 
 Later, FreeBSDKernel9-0.
 
-Oh, hey. So, I'm back from doing a release real quick. So anyway, lemme explain this Privilege Leak I found. It's a classic Privilege Leak on the flag for core_dump_debug_enable (which was set to [n], before I exploited this Leak), that allows you to just... kinda enable that debug flag. When testing, I used it to get a bugreport.txt fle from when I crashed Amazon's custom boot init, neo-init. For context, before that flag was enabled, I couldn't get one, because the data/tombstones directory required (root) access, and trying to get a Bug Report from the shell would just throw an error.
+Oh, hey. So, I'm back from doing a release real quick. So anyway, lemme explain this Privilege Leak I found. It's a classic Privilege Leak on the flag for core_dump_debug_enable (which was set to [n], before I exploited this Leak), that allows you to just... kinda enable that debug flag. When testing, I used it to get a bugreport.txt file from when I crashed Amazon's custom boot init, neo-init. For context, before that flag was enabled, I couldn't get one, because the data/tombstones directory required (root) access, and trying to get a Bug Report from the shell would just throw an error.
 
 Oh, also got Silk's version string: Chromium Blink 108.0.5359.220. This probably has some vulnerabilities, but:
 
@@ -88,11 +88,11 @@ Bye for now, FreeBSDKernel9-0.
 
 Well, turns out DoS'ing the screensaver once worked, but it now doesn't, so here's two new apps (Netflix/YouTube) that use these same vulnerabilities to crash:
 
-Using CWE 755 (Improper Handling Of System Disruptions), and CWE 862 (Missing Authorization) to panick the Android System Server, and throw a NULL Focused App dump. (Updated BrokenAccessControlChain.sh to accomodate.)
+Using CWE 755 (Improper Handling Of System Disruptions), and CWE 862 (Missing Authorization) to panic the Android System Server, and throw a NULL Focused App dump. (Updated BrokenAccessControlChain.sh to accommodate.)
 
 Anyway, bye, FreeBSDKernel9-0.
 
-So, update, found yet another vulnerability. Jeez, it's been, like, 3 days! Now, the script I released to trigger it is compltely broken, but it's just supposed to show how it works, anyway.
+So, update, found yet another vulnerability. Jeez, it's been, like, 3 days! Now, the script I released to trigger it is completely broken, but it's just supposed to show how it works, anyway.
 
 Now, the vulnerability. It's a vulnerability in the 'WiFi Password' field in the Settings app, where, by inserting special characters after you've reached the character limit, you can cause an App Crash.
 
@@ -100,7 +100,7 @@ At it's core, it's an Input Sanitization Flaw, Leading To a Buffer Overflow, and
 
 What it leverages:
 
-CWE 20 (Improper Input Validation) CWE 1284 (Improer Validation Of Specifed Quality In Input) CWE 120 (Buffer Copy Without Checking The Size Of Input) CWE 787 (Out Of Bounds Write)
+CWE 20 (Improper Input Validation) CWE 1284 (Improper Validation Of Specified Quality In Input) CWE 120 (Buffer Copy Without Checking The Size Of Input) CWE 787 (Out Of Bounds Write)
 
 How to trigger it (manually):
 
@@ -128,7 +128,7 @@ If lucky: It will freeze for a few seconds, then kick you to the Home Screen (or
 
 Later, FreeBSDKernel9-0.
 
-Cool, cool, cool. Found a permanent bypass for the BIND_DREAMING_STATE signature on the screensaver, using the exact same vulnerabilities as before, but this time, it's not a fluke, I tested many times. So, anyway, using the same vulnerabiliies as last time I tried to call, and then subsequently DoS, the screensaver, I have now found a permant bypass for the BIND_DREAMING_STATE signature, using a basic AOSP flag, all because Amazon forgot to check if the caller of a system signed app, mind you, is signed by [system].
+Cool, cool, cool. Found a permanent bypass for the BIND_DREAMING_STATE signature on the screensaver, using the exact same vulnerabilities as before, but this time, it's not a fluke, I tested many times. So, anyway, using the same vulnerabilities as last time I tried to call, and then subsequently DoS, the screensaver, I have now found a permant bypass for the BIND_DREAMING_STATE signature, using a basic AOSP flag, all because Amazon forgot to check if the caller of a system signed app, mind you, is signed by [system].
 
 So obviously, the vulnerability stems from more than one CWE, like last time.
 
@@ -204,7 +204,10 @@ So, I gave up on the router, LOL, so that rules out those bugs.
 
 The bug is:
 
-BriefBoot (Affected Device: Imaginear MP Touch) Will try test more on the bug, and hopefully get a CVE off MITRE.
+**BriefBoot** 
+
+(Affected Device: Imaginear MP Touch) Will try test more on the bug, and hopefully get a CVE off MITRE.
+
 
 CWE's:
 
@@ -232,7 +235,7 @@ FreeBSDKernel9-0.
 
 New bug. Not a software thing, rather a human being weird with config files. It's one of those bugs you look at, and wonder why it even exists.
 
-Name: Awk2Shell
+Name: **Awk2Shell**
 
 Affected devices: Any Linux based device with bad/rushed settings in /etc/sudoers.
 
@@ -256,7 +259,7 @@ Later, FreeBSDKernel9-0.
 
 Another day, another LPE. This one is so dumb...
 
-Gentle Paws
+**Gentle Paws**
 
 Gentle Paws is a bug that stems from a crappy startup script written in 2015, for Google Cloud Shell.
 
@@ -315,7 +318,8 @@ Few more misc. LPE's in Coda/Cloud (PortPaws and LionePaws), LionePaws was a Bli
 
 But apart from that, I found a zero day. (You can read the code at /tree/main/Sky ER115/MikuLeak.sh), and it's a chain of ridiculous bugs, on a real home router, rather than some dumb cloud Linux box.
 
-MikuLeak (I called it that because of the 'she lives in your WiFi' reference from the song Miku by Anamanaguchi) is a combination of a few BAD bugs. Like, really bad. We're talking bad auth, a persistent malicious access primitive, and a full leak of the network map (a bunch of stuff, SSID/Password, MAC addresses of devices on your network, firmware version, router serial number and MAC address, to name a few)
+**MikuLeak** 
+(I called it that because of the 'she lives in your WiFi' reference from the song Miku by Anamanaguchi), is a combination of a few BAD bugs. Like, really bad. We're talking bad auth, a persistent malicious access primitive, and a full leak of the network map (a bunch of stuff, SSID/Password, MAC addresses of devices on your network, firmware version, router serial number and MAC address, to name a few)
 
 (I reported it to VulnCheck already, haven't received anything back, so the floodgates are open)
 
@@ -342,7 +346,7 @@ Later, FreeBSDKernel9-0.
 
 'Kay, so next day, and I lied. 'Member how I said "I'm not even gonna bother writing C"? Well, I lied (obvs, check tree/main/General Linux Stuff (Busybox embedded junk)/LibrariesAreWeird.sh, it's a C script. Turns out (even though I'm not that good... yet), I actually really like C.
 
-Junk thing is, we started learning Python in Computing class (personally, hate Python, people say it's better than C, and clown on C, when Python is literally built almost ENTIRELY in C. Sure, it's easier to pick up, but that makes it boring, honestly. Like, almost no hardware access - meaning no GPU for, y'know, like, making Pac Man or something, no proper way to distinguish libraries from code (Like, import os instead of #include <stdio.h>), and, unpopular opinion, the only good thing about Python is the shell, but it's convoluted, and weird to set up.) And my point is, even though I'm not good at C, I've read it, read up on it, and dabbled in it a bit (even before LibrariesAreWeird.sh, just not on GitHub), so because of that, I feel like I'll just end up mixing C and Python and break my scripts (like, where's #define and #include? Also, do you #define NAME and AGE in that type of project? Also, how do you get user_input? In C, it's env/getenv/setenv, which is cool, but where's that in Python?)
+Junk thing is, we started learning Python in Computing class (personally, hate Python, people say it's better than C, and clown on C, when Python is literally built almost ENTIRELY in C. Sure, it's easier to pick up, but that makes it boring, honestly. Like, almost no hardware access - meaning no GPU for, y'know, like, making Pac Man or something, no proper way to distinguish libraries from code (Like, import os instead of #include <stdio.h>), and, unpopular opinion, the only good thing about Python is the shell, but it's convoluted, and weird to set up.) And my point is, even though I'm not good at C, I've read it, read up on it, and dabbled in it a bit (even before LibrariesAreWeird.sh, just not on GitHub), so because of that, I feel like I'll just end up mixing C and Python and break my scripts (like, where's #define and #include? Also, do you #define NAME and AGE in that type of project? Also, how do you get user_input? In C, it's puts()/getenv()/setenv(), which is cool, but where's that in Python?)
 
 Anyway, enough code smell. Time to talk about the 'dumb rule', and Miku2Shell.
 
@@ -439,7 +443,7 @@ Noah Floersch (LOL, I found out ages ago his middle name is Francis, and he's ba
 
 FLAVOR FOLEY (obvs, I like synth/Jamie Paige, so yeah)
 
-Unlike my sister, who's enire personality is rock (Linkin Park, Green Day, Fall Out Boy, etc, ugh)
+Unlike my sister, who's entire personality is rock (Linkin Park, Green Day, Fall Out Boy, etc, ugh)
 Like, her version of geeking out is random TikTok memes, and Linkin Park, which is her whole personality, and all she talks about.
 
 My version of geeking out:
@@ -461,7 +465,7 @@ Dork Diaries (Nicole "Nikki" Julianne Maxwell, Chloe Christina Garcia, Zoeysha E
 Junk from MLP (My Little Pony)
 
 
-But I keep that shit locked up tight, I don't share shit with people I don't trust/like, excpt, like, AI. (It won't judge me, I delete the chats after)
+But I keep that shit locked up tight, I don't share shit with people I don't trust/like, except, like, AI. (It won't judge me, I delete the chats after)
 
 Also, my sister tried to act like she wanted to know my interests once a while back, and instead started reading an essay about DID (something Identity Disorder), but the only reason I would care about disorders is MLP/old MLP forums.
 
