@@ -439,7 +439,7 @@ Favourite music artists:
 
 Jamie Paige
 
-Noah Floersch (LOL, I found out ages ago his middle name is Francis, and he's based in Omaha, Nebrasa, which I still remember)
+Noah Floersch (LOL, I found out ages ago his middle name is Francis, and he's based in Omaha, Nebraska, which I still remember)
 
 FLAVOR FOLEY (obvs, I like synth/Jamie Paige, so yeah)
 
