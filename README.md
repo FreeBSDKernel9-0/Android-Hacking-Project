@@ -566,3 +566,108 @@ So yeah, 16, immmediately getting that, LOL.
 
 See ya,
 Zoey 'May' Franklin
+
+Dumb update a few days late. I wrote a song in C, because I'm a straight up dork. (Thanks, Nikki and Low Level!)
+It's not done, and no spoilers, but I can say it features Tetomi (obvs, she's still better than Miku) and GUMI (She's cool, I guess, but I haven't heard many songs by her, though, LOL)
+
+Also, some straight up BS from my guidance, LOLFAO.
+
+So, y'know how I'm Zoey in school now? Cool, but one problem (LOL, Today Is Gonna Be A Great Day - from the Phineas and Ferb Soundtrack just started playing), my email still says my old name (obvs, not leaking my school email), so I asked to change it, and he's like "Yeah, sure", pretty much, and agreed to change it. But the second I asked to change my email so it matches Zoey 'May' Franklin, he's all like: "Nah, you need parental consent to do that", which, in my opinion, is straight BS, since it's not going on the register, and is just my email, so... 'kay, fam?
+
+Anyway, besides that, another dumb thing that happened. I keep getting asked a range of questions by students (who are clearly trying to bully me, as they're asking them repeatedly, even after I answer), including: "Are a boy or a girl?" (Because, well, Zoe, LOL. To that, I said repeatedly that I'm a guy, I just like 'Zoey' better than my actual name), "Are you trans?" (Same answer), "Why pick Zoey?" (Uh, because I like it, and am allowed freedom?), and another really dumb attempt at an insult.
+
+Transformer (I answered "Well, I'm not metal" on every run - and frankly, don't even like Transformers), Gender Bender (Same insult my sister got when she changed her name, by the same kid who's started saying it to me, so 'passed down the generations' type shit, even though we're the same age, except she came out first), and switching between Sunday/Moony/Rainy/Cloudy (all derived from my birth name, and they're not new insults - originating from S1) as well as Zoey. So basically, they mash all those into a sentence, and switch between them, effectively trying to use 'Zoey' itself as an insult.
+
+**My comments on every insult, because I'm a logic based dork, who has to judge everything**
+
+Transformer (Again, not trans, don't even like Transformers)
+
+Gender Bender (What is this, Aang, The Last Airbender, except he somehow figured out how to bend gender instead of Air and later - I think, haven't watched in ages - Fire? LOLFAO.)
+
+Those old insult switches/Zoey (You're not original or anything, and by using my chosen name as an insult, you're effectively giving me what I want, by calling me Zoey)
+
+**Finally, we talking about hardware again?**
+
+Yeah, so basically, me and my social were out at Asda, and she got me an alarm clock. Lemme tell you a bit about it.
+
+Name: Double Bell LCD Alarm Clock - Cream (George Home, produced by Asda in that one Leeds address I forgot)
+
+It's clearly some dropshipped Chinese garbage, though, because it's so light, and just has the classics:
+
+Weird nonsensical manual
+
+No actual name of the company that made it 
+
+(This is common on some Chinese garbage, but usually, they have weirdly bad translations of names as manufacturers - like the Dankpods/Bringus Studios collab where the manufacturer of that poster out of the Bin King translated to 'it is a shame' - but like I said, mine has no manufacturer company on it)
+
+Bad cables (common on a lot of bootleg iPods, too - second Dankpods reference!)
+
+Terrible fitting ports (mine also feels super tight and doesn't even go in all the way - also common on bootlegs, third Dankpods reference)
+
+**Why am I yapping about that, anyway?**
+
+Simple. You already know my plan. Since it's clearly dropshipped Chinese garbage (bought directly oin my local Asda - not online, in case that wasn't obvious), it probably has the same junk security practices that come with Chinese garbage, so... hacking tiem! ('tiem' - fouth Dankpods reference, and deliberate typo - he sometimes spelt time like that)
+
+So, first, try get in over USB, then, if not, look inside, and see if there's interfacing crap (LMAO, obvious in stuff like that), and see what I can get.
+
+**Also, fsr, my stepdad saw me pulling soda tabs off a couple cans, and said, quote: "Why? That's a bit.. insane." (How??? Can I have no freedom anymore?)**
+
+Also, my Mum said the most BS thing, too, so more BS in the chat.
+
+We were talking about how she basically doesn't pay attention to me or my sister's interests, and she said, quote: "Sometimes, I'm not in the mental mood to talk. I'm all 'socialed out'. Also (this next part was aimed at my sister, btw), you tend to go on and on, when I want a brief convo." (Well, maybe that's because, every time we share our interests, shit we made, stuff we're excited about, you're always all lackluster, like: "Ok." "That's cool." or, in these 'socialed out' ('socialed' isn't even a word, btw) moments: "Shut up." "Be quiet." "Talk to me later." (And that 'later' never comes, because why would we talk to her???)
+
+So yeah, that's fucking sick. Thanks, Mum.
+
+**Song collabs**
+
+Jamie Paige is my dream collab, btw. If FlightWish could come along too, that'd be sick!
+
+**Weird initials style**
+
+So, fsr, ages back, I made this thing where I turn names into initials, and here's how, and what I got:
+
+So basically, I take the first letter of their first, middle, and last name, for a total of three letters. (It's always 3, it has to be)
+And, if their middle or last names aren't known, I take a significant letter from their first name. Also, if you notice 'Miaki K.' in that list, it's Mizuki Akitomo. Basically, I couldn't find a good initials set, so I took the first 2 letters from her first name (Mi), the first three from her last name (Aki), and the last K from Mizuki, to get Miaki K.
+
+Formula:
+
+Mi (derived from **Mi**zuki) + Aki (derived from **Aki**tomo) + K (derived from Mizu**k**i)
+
+So yeah, to name a few:
+
+NJM = Nicole "Nikki" Julianne Maxwell (obviously didn't include Nicole, just the Nikki part)
+CCG = Chloe Christina Garcia (obvs, same three letters, since middle/last are known)
+ZEF = Zoeysha "Zoey" Ebony Franklin (Same as Nikki)
+
+BRR = Brandon Roberts (Took the 'r' from his first name, as 'r' appears twice + middle name is not known)
+MKH = MacKenzie Hollister (Middle is not known, 'K' is the only capitalized letter, so... MKH)
+
+RMD = Rainbow Dash (Middle is not known, and RND already stands for Research and Development + Magenta eyes, specifically Deep Magenta, so RMD)
+
+ZMF (me) = Zoey 'May' Franklin (Middle is known, so ZMF)
+
+**Another crappy 'Mum' thing I wanna bring up before closing... or maybe two?**
+
+1. At the CAMHS thing, we were talking, and I say something like "check my GitHub repo" to show a specific pattern I have or whatever (I can't remember exactly what I said), and she's like "I don't need to see it." kinda bluntly, imo, but like... doesn't that literally prove my 'interests/excited/shit we made' point from earlier? So fucking scummy.
+
+
+2. Long story short, Mum's blaming me for two incidents, even though technically neither of them were my fault:
+
+One is, at my Nana's new flat on Day 2 of our visit there (just her, me, and my sister), me and my sister got into some dumb argument over... I don't even know, and in short, it ended in her saying "Someone's dying. I'm killing him." at me four times, so I snapped after the fourth time, and logically was like: "Nana did nothing those four times, and I should be allowed to defend myself." So I said "Go fucking kill yourself." (I was pissed, and it was quick), and my sister started crying and guilt tripping me, like, "Don't say that suicidal brother. You know I'm emotional!" (Like, huh? So basically, you're saying I'm not allowed to defend myself with a similar insult, 'cause I'm mad? Huh?)
+
+Then she left, Nana didn't defend me or talk to me about it, so I went into her bedroom, screaming and cursing, and the whole time, she's on the phone to my stepdad's Mum (she phoned during me and my sister's argument, fsr), all like: "Oh, he's in my room, swearing to himself." (Like, girl, come talk to me instead of being straight up rude???)
+
+My sister comes back, Nana and her are all pally, and I'm basically in disgrace, for, mind you, defending myself.
+
+The second thing, is, on Day 3, we were at my Granny and Grandad's place in Muchalls, and before dinner, I had went into the kitchen, bored, and started yapping to Nana. Dumb whatevers, mostly, but the main point came when Nana's like (quoted, btw): "Oh, your sister isn't trying to become annorexic, is she?" So, after our convo, I tell my sister (because I found that rude, and something she needed to know), and she gets all emotional, and whatever, and starts getting mad at Nana, who spouted some shit about "He took it in the wrong context" or whatever, which is straight BS, when your previous questions were shit like: "Does she eat enough? Does she have lunch? You seen her eat breakfast?" I answer all these, because why wouldn't I? 
+
+And basically, my sister ends up in a meltdown all night, and Nana's mad at me again.
+
+Back to Mum, at the end of all this, a day or two later, when we were back home, she alleges that I made Nana cry (never saw that, probably a fucking guilt trip, and the Muchalls thing was her fault, anyway), and bans me and my sister from going to Nana's together (Yay!), and is still mad/blaming me, even today, and that was, like, a month or so ago.
+
+So we now have to go separately, cool, whatever.
+
+Anyway, enough.
+
+See ya later, 
+FreeBSDKernel9-0.
