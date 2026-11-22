@@ -671,3 +671,44 @@ Anyway, enough.
 
 See ya later, 
 FreeBSDKernel9-0.
+
+New update. Days later, because I keep avoiding using my laptop (the rule = still driving me insane)
+
+**Some stuff I learned while looking into an artist (@AlexSavageOMFG, who I'll refer to by his real name, Loell, because... no-one else talking about it does)**
+
+So yeah, I got into Loell's music again, because I found Jelly on my FYP, and it turned out to be good, I guess.
+(LOL, GitHub's text filter thig thinks "Loell's" is a spelling mistake - it's not)
+
+So originally, I thought he was like Late Night Pies (@LateNightPies, the DOAWK guy from 4 years ago), and just left because, like, music wasn't his thing anymore? Nope. Loell's history is full of crazy drama.
+
+1. His last song was Wash Your Hands in 2020, but he had a few WIP's, that got leaked by CasTY! and trolls, which were Burp, Headshot, and allegedly Campfire was also his, but as far as I've gathered, no-one actually knows if Campfire is his. Apparently, Burp and Headshot are actually his, whch makes sense, because they do sound like his stuff.
+
+2. Kylee + Loell: Back in 2014-2016, when Hello was going absolutely viral, this girl, Kylee, was basically the face of the brand, and it was this whole thing, because it turned out she did not produce the music, as he tried to (apparently) claim, and then basically came out and said (after being exposed for straight up lying), that he was the real producer (true), and that his name was 'Alex Savage', which is what everyone refers to him by (except me), and I'll quote from @Tarleaf (YouTube): "Except... That was kind of a lie too. Alex Savage? His name's Loell."
+
+So yeah, he was lying about his name, and that led to callouts, more drama, and (apparently) someone tracing his business records to a name: Loell.
+
+So yeah, not siding with anyone, I'm just recounting this, because honestly? I kinda wanted to investigate why this guy's last upload was 6 years ago.
+
+**How this spiralled (hacks, leaked WIPs, fake songs (Like Goodbye, LMAO), and the doxxing**
+
+So eventually, he stepped away in 2020, after controversy about the supposed 'social experiment' (Loell allegedly revealed that the shit with Kylee was a social experiment - weird, but 'kay, bro - and stepped away) and there was other stuff, too.
+
+Like, how, apparently, Loell talked to a couple minors using different aliases, said weird shit, and that was one of the reasons he got hacked/doxxed later (I honestly think that was just an excuse from trolls, so they could justify hacking his shit, though), and we found out his full name, and his CoO (Country of Origin) is The Maple Leaf (namely, Canada)
+
+And yeah, apparently, CasTY! (now an 'OMFG style' music creator, after that style blew up) was the one that doxxed him, along with trolls, according to my sources, but I'm not saying "Yeah, definitely", because... ew.
+
+So yeah, there was also leaked WIP's, as I said at the start, and CasTY! and trolls are getting the push for Campfire, but again, it could also be a fake song made by someone else, according to more stuff in one of my sources.
+
+So yeah, that's kinda it. Lemme list my sources.
+
+**Sources**
+
+The main source I looked at first: https://www.reddit.com/r/Monstercat/comments/14c4h9z/what_happened_to_omfg/
+
+Comments from that:
+
+"I remember he released a song called Headshot that got deleted offa Spotify for some reason, it’s a shame bc it was a banger" (I dunno if that got deleted from Spotify, haven't checked, but it's still on YouTube)
+
+And there is other sources, but I have to hand my laptop back in a bit, so I'll continue looking later.
+
+FreeBSDKernel9-0.
